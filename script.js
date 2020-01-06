@@ -2,7 +2,7 @@ window.addEventListener("load", sidenVises);
 
 let lastScrollPosition = 0;
 var winWidth = window.innerWidth;
-var endPos = Math.round(winWidth * 5);
+var endPos = Math.round(winWidth * 7);
 var disappear = Math.round(endPos - 400);
 
 window.addEventListener("scroll", scroll);
@@ -39,6 +39,8 @@ function sidenVises() {
   document.querySelector("#cup_tekst").addEventListener("click", cupPlus);
   document.querySelector("#mug_tekst").addEventListener("click", mugPlus);
   document.querySelector("#kea_tekst").addEventListener("click", keaPlus);
+  document.querySelector("#data_tekst").addEventListener("click", dataPlus);
+  document.querySelector("#res_tekst").addEventListener("click", resPlus);
 }
 
 function frem() {
@@ -129,4 +131,30 @@ function keaMinus() {
   console.log("keaMinus");
 
   document.querySelector("#kea_tekst_plus").classList.add("hide");
+}
+
+function dataPlus() {
+  console.log("dataPlus");
+
+  document.querySelector("#data_tekst_plus").classList.remove("hide");
+  document.querySelector("#data_tekst_plus").addEventListener("click", dataMinus);
+}
+
+function dataMinus() {
+  console.log("dataMinus");
+
+  document.querySelector("#data_tekst_plus").classList.add("hide");
+}
+
+function resPlus() {
+  console.log("resPlus");
+
+  document.querySelector("#res_tekst_plus").classList.remove("hide");
+  document.querySelector("#res_tekst_plus").addEventListener("click", resMinus);
+}
+
+function resMinus() {
+  console.log("resMinus");
+
+  document.querySelector("#res_tekst_plus").classList.add("hide");
 }

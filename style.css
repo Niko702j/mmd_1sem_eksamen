@@ -760,7 +760,152 @@ nav img {
 
 /*--------------*/
 
+#syv {
+  display: flex;
+  width: 100vw;
+  position: absolute;
+  left: 600vw;
+  justify-content: center;
+}
 
+#syv li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-left: 30px;
+}
+
+#data1 {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: 6.6px;
+  left: 314px;
+}
+
+#data1 img {
+  border-radius: 200px;
+}
+
+#data2 {
+  width: 179.2px;
+  height: 179.2px;
+  position: absolute;
+  top: 212px;
+  left: 416.5px;
+  filter: grayscale(1);
+}
+
+#data2 img {
+  border-radius: 200px;
+}
+
+#data_tekst {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: 148px;
+  left: 172.5px;
+  background-color: #f5e5e5;
+}
+
+#data_tekst2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 153.6px;
+  height: 153.6px;
+  position: absolute;
+  top: 122px;
+  right: 172.5px;
+  background-color: #f5e5e5;
+}
+
+#data_tekst2 a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#data_tekst_plus {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 70px;
+  left: 125px;
+  background-color: #f5e5e5;
+}
+
+#data_tekst_plus p {
+  margin-left: 30px;
+  margin-top: 2px;
+}
+
+/*--------------*/
+
+#otte {
+  width: 100vw;
+  position: absolute;
+  left: 700vw;
+  display: flex;
+  justify-content: center;
+}
+
+#otte li {
+  margin-left: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+#res1 {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: 128px;
+  left: 50px;
+}
+
+#res1 img {
+  border-radius: 200px;
+}
+
+#res_tekst {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background-color: #f5e5e5;
+}
+
+#res2 {
+  width: 281.6px;
+  height: 281.6px;
+  position: absolute;
+  top: 68px;
+  left: 267px;
+}
+
+#res2 img {
+  border-radius: 200px;
+}
+
+#res_tekst_plus {
+  width: 410px;
+  height: 410px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: #f5e5e5;
+}
+
+#res_tekst_plus p {
+  margin-left: 40px;
+  margin-top: 2px;
+}
+
+/*--------------*/
 
 
 
