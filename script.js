@@ -1,6 +1,9 @@
 window.addEventListener("load", sidenVises);
 
 let lastScrollPosition = 0;
+var winWidth = window.innerWidth;
+var endPos = Math.round(winWidth * 5);
+var disappear = Math.round(endPos - 400);
 
 window.addEventListener("scroll", scroll);
 
@@ -15,7 +18,7 @@ function scroll() {
     document.querySelector("#pil_tilbage").classList.remove("hide");
   }
 
-  if (lastScrollPosition > 4710) {
+  if (lastScrollPosition > disappear) {
     document.querySelector("#pil_frem").classList.add("hide");
   } else {
     document.querySelector("#pil_frem").classList.remove("hide");
@@ -35,6 +38,7 @@ function sidenVises() {
   document.querySelector("#nude_tekst").addEventListener("click", nudePlus);
   document.querySelector("#cup_tekst").addEventListener("click", cupPlus);
   document.querySelector("#mug_tekst").addEventListener("click", mugPlus);
+  document.querySelector("#kea_tekst").addEventListener("click", keaPlus);
 }
 
 function frem() {
@@ -112,4 +116,17 @@ function mugMinus() {
   console.log("mugMinus");
 
   document.querySelector("#mug_tekst_plus").classList.add("hide");
+}
+
+function keaPlus() {
+  console.log("keaPlus");
+
+  document.querySelector("#kea_tekst_plus").classList.remove("hide");
+  document.querySelector("#kea_tekst_plus").addEventListener("click", keaMinus);
+}
+
+function keaMinus() {
+  console.log("keaMinus");
+
+  document.querySelector("#kea_tekst_plus").classList.add("hide");
 }

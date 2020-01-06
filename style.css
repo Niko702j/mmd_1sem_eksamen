@@ -631,6 +631,71 @@ nav img {
 }
 
 #fem li {
+  margin-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+#keaapp {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: 134px;
+  right: 158.4px;
+}
+
+#keaapp img {
+  border-radius: 200px;
+}
+
+#kea_tekst {
+  width: 279.2px;
+  height: 279.2px;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  background-color: #f5e5e5;
+}
+
+#sprint {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  left: 158.4px;
+  top: 70px;
+}
+
+#sprint img {
+  border-radius: 200px;
+}
+
+
+#kea_tekst_plus {
+  width: 380px;
+  height: 380px;
+  position: absolute;
+  left: 230px;
+  top: 70px;
+  background-color: #f5e5e5;
+}
+
+#kea_tekst_plus p {
+  margin-left: 50px;
+  margin-top: 2px;
+}
+
+/*--------------*/
+
+#seks {
+  width: 100vw;
+  position: absolute;
+  left: 500vw;
+  display: flex;
+  justify-content: center;
+}
+
+#seks li {
   margin-left: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -995,14 +1060,6 @@ nav img {
     margin-left: 3vw;
   }
 
-  #end {
-    height: 1vw;
-    width: 1vw;
-    background-color: transparent;
-    position: absolute;
-    top: 26vw;
-    left: 443vw;
-  }
 
 
 }
