@@ -298,10 +298,6 @@ nav img {
   background-color: #f5e5e5;
 }
 
-#mm_tekst p {
-  margin-left: 38.4px;
-}
-
 #mm_tekst2 {
   display: flex;
   justify-content: center;
@@ -908,620 +904,479 @@ nav img {
 /*--------------*/
 
 
+@media only screen and (max-width: 900px) {}
 
+@media only screen and (max-width: 700px) {
 
-@media only screen and (max-width: 991px) {
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  header {
+    background-image: url(billeder/rosemob.jpg);
+    height: 38vw;
+    position: fixed;
+  }
+
+  #menuknap {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 7vw;
+    right: 4vw;
+  }
+
+  .menu {
+    background-image: url(billeder/menu.svg);
+  }
+
+  .luk {
+    background-image: url(billeder/kryds.svg);
+  }
+
+  .hide_mob {
+    display: none;
+  }
+
+  #dropdown {
+    position: absolute;
+    width: 100vw;
+    top: 10vw;
+    left: 0;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4vw;
+    padding: 0.5vw;
+    text-align: right;
+  }
+
+  nav img {
+    width: 70vw;
+    left: 9vw;
+  }
+
+  #index nav img {
+    width: 80vw;
+    left: 10vw;
+  }
+
+  .nav1 {
+    top: 12vw;
+    right: 4vw;
+  }
+
+  .nav2 {
+    top: 24vw;
+    right: 4vw;
+  }
+
+  .nav3 {
+    top: 36vw;
+    right: 4vw;
+  }
+
+  .nav4 {
+    top: 48vw;
+    right: 4vw;
+  }
+
   #pil_frem {
-    top: 35vw;
+    display: none;
   }
 
   #pil_tilbage {
-    top: 35vw;
+    display: none;
+  }
+
+  .container {
+    width: 320px;
+    height: 640px;
+    top: 0;
   }
 
 
-  #splash {
-    display: flex;
+  /*------------- FORSIDE / INDEX --------------*/
+
+  #en a {
+    font-size: 4vw;
   }
 
-  #mig {
-    width: 30vw;
-    height: 30vw;
-    top: 22vw;
-  }
-
-  #mig img {
-    border-radius: 200px;
-  }
-
-  #mig_tekst {
-    width: 25vw;
-    height: 25vw;
+  #portraet {
+    width: 240px;
+    height: 210px;
     position: absolute;
-    top: 20vw;
-    left: 50vw;
-    background-color: #f5e5e5;
-  }
-
-  #pf_tekst {
-    width: 19vw;
-    height: 19vw;
-    top: 41vw;
-    left: 47vw;
-  }
-
-  #pf_tekst p {
-    margin: 3vw 0 0 3vw;
+    top: 220px;
+    left: 40px;
   }
 
 
-  #uniposters {
-    display: flex;
+  #forside_txt1 {
+    width: 100px;
+    height: 100px;
+    top: 265px;
+    right: 0px;
   }
 
-  #uni1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 26vw;
-    left: 106vw;
+  #forside_txt2 {
+    width: 80px;
+    height: 80px;
+    top: 310px;
+    left: 0;
   }
 
-  #uni1 img {
-    border-radius: 200px;
-  }
-
-  #uni2 {
-    width: 25vw;
-    height: 25vw;
-    position: absolute;
-    top: 22vw;
-    left: 142vw;
-  }
-
-  #uni2 img {
-    border-radius: 200px;
-  }
-
-  #uni3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 12vw;
-    height: 12vw;
-    position: absolute;
-    top: 18vw;
-    left: 115vw;
-    background-color: #f5e5e5;
-    border-radius: 200px;
-  }
-
-  #uni3 img {
-    width: 80%;
-  }
-
-  #uni3 a {
-    text-align: center;
-  }
-
-  #uni_tekst {
-    width: 22vw;
-    height: 22vw;
-    position: absolute;
-    top: 21vw;
-    left: 123vw;
-    background-color: #f5e5e5;
-  }
-
-  #uni_tekst p {
-    margin-left: 3.5vw;
+  #forside_txt3 {
+    width: 90px;
+    height: 90px;
+    top: 370px;
+    left: 15px;
   }
 
 
-  #musikmick {
-    display: flex;
+
+
+
+  /*------------- PORTFOLIE --------------*/
+
+
+  #et {
+    top: 0;
+    left: 0;
+  }
+
+  #et li {
+    margin-left: 20px;
   }
 
   #mm1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 19vw;
-    left: 212vw;
-  }
-
-  #mm1 img {
-    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    left: 0px;
   }
 
   #mm2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 14vw;
-    height: 14vw;
-    position: absolute;
-    top: 35vw;
-    left: 220vw;
-    background-color: #efefef;
-    border-radius: 200px;
-  }
-
-  #mm2 img {
-    width: 80%;
-  }
-
-  #mm2 a {
-    text-align: center;
+    width: 130px;
+    height: 130px;
+    top: 120px;
+    left: 200px;
   }
 
   #mm_tekst {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 30vw;
-    left: 201vw;
-    background-color: #f5e5e5;
-  }
-
-  #mm_tekst p {
-    margin-left: 3vw;
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
   }
 
   #mm_tekst2 {
-    width: 12vw;
-    height: 12vw;
+    width: 160px;
+    height: 160px;
+    top: 400px;
+    right: 0px;
+  }
+
+  #mm_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
+  }
+
+  #mm_tekst_plus p {
+    margin-left: 20px;
+  }
+
+  /*--------------*/
+
+  #to {
+    left: 0;
+    top: 100vh;
+  }
+
+  #to li {
+    margin-left: 20px;
+  }
+
+  #uni1 {
+    width: 160px;
+    height: 160px;
     position: absolute;
-    top: 28vw;
-    left: 230vw;
-    background-color: #f5e5e5;
+    top: 400px;
+    left: 160px;
   }
 
-  #mm_tekst2 p {
-    margin-left: 2vw;
+  #uni2 {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 20px;
+    left: 0;
   }
 
+  #uni3 {
+    width: 140px;
+    height: 140px;
+    top: 100px;
+    left: 165px;
+  }
 
+  #uni_tekst {
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
+  }
 
+  #uni_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
+  }
 
-  #cupcakes {
-    display: flex;
+  #uni_tekst_plus p {
+    margin-left: 20px;
+  }
+
+  /*--------------*/
+
+  #tre {
+    left: 0;
+    top: 200vh;
+  }
+
+  #tre li {
+    margin-left: 20px;
+  }
+
+  #nudeshooter {
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    right: 0px;
+  }
+
+  #nudepic {
+    width: 180px;
+    height: 180px;
+    top: 50px;
+    left: 0px;
+  }
+
+  #nude_tekst {
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
+  }
+
+  #nude_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
+  }
+
+  #nude_tekst_plus p {
+    margin-left: 50px;
+    margin-top: 2px;
+  }
+
+  /*--------------*/
+
+  #fire {
+    left: 0;
+    top: 300vh;
+  }
+
+  #fire li {
+    margin-left: 20px;
   }
 
   #cup1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 27vw;
-    left: 310vw;
+    width: 180px;
+    height: 180px;
+    top: 420px;
+    left: 0px;
   }
 
-  #cup1 img {
-    border-radius: 200px;
+  #dok {
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    left: 120px;
+  }
+
+  #dok a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 
   #cup2 {
-    width: 14vw;
-    height: 14vw;
+    width: 220px;
+    height: 220px;
     position: absolute;
-    top: 18vw;
-    left: 306vw;
+    top: 30px;
+    right: 0;
   }
 
   #cup2 img {
     border-radius: 200px;
   }
 
-  #cup_tekst {
-    width: 25vw;
-    height: 25vw;
+  #cup3 {
+    width: 128px;
+    height: 128px;
     position: absolute;
-    left: 286vw;
-    top: 22vw;
-    background-color: #f5e5e5;
+    top: 50px;
+    left: 0px;
   }
 
-  #cup_tekst p {
-    margin-left: 4vw;
+  #cup4 {
+    width: 80px;
+    height: 80px;
+    top: 350px;
+    left: 240px;
   }
 
-
-
-
-  #tegne {
-    display: flex;
+  #cup5 {
+    width: 90px;
+    height: 90px;
+    top: 150px;
+    left: 40px;
   }
 
-  #tegne img {
-    border-radius: 200px;
-  }
-
-  #teg1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 18vw;
-    left: 366vw;
-  }
-
-  #teg2 {
-    width: 18vw;
-    height: 18vw;
-    position: absolute;
-    top: 34vw;
-    left: 371vw;
-  }
-
-  #teg3 {
-    width: 22vw;
-    height: 22vw;
-    position: absolute;
-    top: 24vw;
-    left: 406vw;
-  }
-
-  #teg4 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 22vw;
-    left: 360vw;
-  }
-
-  #teg5 {
-    width: 8vw;
-    height: 8vw;
-    position: absolute;
-    top: 35vw;
-    left: 365vw;
-  }
-
-  #teg6 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 40vw;
-    left: 386vw;
-  }
-
-  #teg7 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 19vw;
-    left: 405vw;
-  }
-
-  #teg_tekst {
-    width: 24vw;
-    height: 24vw;
-    position: absolute;
-    top: 20vw;
-    left: 384vw;
-    background-color: #f5e5e5;
-  }
-
-  #teg_tekst p {
-    margin-left: 3vw;
-  }
-
-
-
-}
-
-@media only screen and (max-width: 767px) {
-  #pil_frem {
-    width: 3.33vw;
-    height: 14.8vw;
-    position: fixed;
-    top: 22vw;
-    right: 2vw;
-  }
-
-  #pil_tilbage {
-    width: 3.33vw;
-    height: 14.8vw;
-    position: fixed;
-    top: 22vw;
-    left: 2vw;
-  }
-
-
-
-
-
-  #splash {
-    display: flex;
-  }
-
-  #mig {
-    width: 25vw;
-    height: 25vw;
-    position: absolute;
-    top: 18vw;
-    left: 29vw;
-  }
-
-  #mig img {
-    border-radius: 200px;
-  }
-
-  #mig_tekst {
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 20vw;
-    left: 50vw;
-    background-color: #f5e5e5;
-  }
-
-  #pf_tekst {
-    width: 16vw;
-    height: 16vw;
-    position: absolute;
-    top: 34vw;
-    left: 42vw;
-    background-color: #f5e5e5;
-  }
-
-  #pf_tekst p {
-    margin: 3vw 0 0 3vw;
-  }
-
-
-
-
-
-  #uniposters {
-    display: flex;
-  }
-
-  #uni1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 26vw;
-    left: 106vw;
-  }
-
-  #uni1 img {
-    border-radius: 200px;
-  }
-
-  #uni2 {
-    width: 25vw;
-    height: 25vw;
-    position: absolute;
-    top: 22vw;
-    left: 142vw;
-  }
-
-  #uni2 img {
-    border-radius: 200px;
-  }
-
-  #uni3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 12vw;
-    height: 12vw;
-    position: absolute;
-    top: 18vw;
-    left: 115vw;
-    background-color: #f5e5e5;
-    border-radius: 200px;
-  }
-
-  #uni3 img {
-    width: 80%;
-  }
-
-  #uni3 a {
-    text-align: center;
-  }
-
-  #uni_tekst {
-    width: 22vw;
-    height: 22vw;
-    position: absolute;
-    top: 21vw;
-    left: 123vw;
-    background-color: #f5e5e5;
-  }
-
-  #uni_tekst p {
-    margin-left: 3.5vw;
-  }
-
-
-  #musikmick {
-    display: flex;
-  }
-
-  #mm1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 19vw;
-    left: 212vw;
-  }
-
-  #mm1 img {
-    border-radius: 200px;
-  }
-
-  #mm2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 14vw;
-    height: 14vw;
-    position: absolute;
-    top: 35vw;
-    left: 220vw;
-    background-color: #efefef;
-    border-radius: 200px;
-  }
-
-  #mm2 img {
-    width: 80%;
-  }
-
-  #mm2 a {
-    text-align: center;
-  }
-
-  #mm_tekst {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 30vw;
-    left: 201vw;
-    background-color: #f5e5e5;
-  }
-
-  #mm_tekst p {
-    margin-left: 3vw;
-  }
-
-  #mm_tekst2 {
-    width: 12vw;
-    height: 12vw;
-    position: absolute;
-    top: 28vw;
-    left: 230vw;
-    background-color: #f5e5e5;
-  }
-
-  #mm_tekst2 p {
-    margin-left: 2vw;
-  }
-
-
-
-
-  #cupcakes {
-    display: flex;
-  }
-
-  #cup1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 27vw;
-    left: 310vw;
-  }
-
-  #cup1 img {
-    border-radius: 200px;
-  }
-
-  #cup2 {
-    width: 14vw;
-    height: 14vw;
-    position: absolute;
-    top: 18vw;
-    left: 306vw;
-  }
-
-  #cup2 img {
-    border-radius: 200px;
+  #cup6 {
+    width: 85px;
+    height: 85px;
+    top: 180px;
+    left: 0;
   }
 
   #cup_tekst {
-    width: 25vw;
-    height: 25vw;
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
+  }
+
+  #cup_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
+  }
+
+  #cup_tekst_plus p {
+    margin-left: 20px;
+  }
+
+  /*--------------*/
+
+  #fem {
+    left: 0;
+    top: 400vh;
+  }
+
+  #fem li {
+    margin-left: 20px;
+  }
+
+  #sprint {
+    width: 180px;
+    height: 180px;
+    top: 120px;
+    right: 0;
+  }
+
+  #kea_tekst {
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
+  }
+
+  #keaapp {
+    width: 200px;
+    height: 200px;
+    left: 0;
+    top: 50px;
+  }
+
+  #kea_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
+  }
+
+  #kea_tekst_plus p {
+    margin-left: 20px;
+  }
+
+  /*--------------*/
+
+  #seks {
+    left: 0;
+    top: 500vh;
+  }
+
+  #seks li {
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  #mug1 {
+    width: 320px;
+    height: 320px;
     position: absolute;
-    left: 286vw;
-    top: 22vw;
-    background-color: #f5e5e5;
+    top: 0;
+    left: 177.92px;
   }
 
-  #cup_tekst p {
-    margin-left: 4vw;
-  }
-
-
-
-
-  #tegne {
-    display: flex;
-  }
-
-  #tegne img {
+  #mug1 img {
     border-radius: 200px;
   }
 
-  #teg1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 18vw;
-    left: 366vw;
+  #mug_tekst {
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
   }
 
-  #teg2 {
-    width: 18vw;
-    height: 18vw;
+  #mug2 {
+    width: 205px;
+    height: 205px;
     position: absolute;
-    top: 34vw;
-    left: 371vw;
+    top: 205px;
+    left: 345px;
   }
 
-  #teg3 {
-    width: 22vw;
-    height: 22vw;
-    position: absolute;
-    top: 24vw;
-    left: 406vw;
+  #mug2 img {
+    border-radius: 200px;
   }
 
-  #teg4 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 22vw;
-    left: 360vw;
+  #mug_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
   }
 
-  #teg5 {
-    width: 8vw;
-    height: 8vw;
-    position: absolute;
-    top: 35vw;
-    left: 365vw;
-  }
-
-  #teg6 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 40vw;
-    left: 386vw;
-  }
-
-  #teg7 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 19vw;
-    left: 405vw;
-  }
-
-  #teg_tekst {
-    width: 24vw;
-    height: 24vw;
-    position: absolute;
-    top: 20vw;
-    left: 384vw;
-    background-color: #f5e5e5;
-  }
-
-  #teg_tekst p {
-    margin-left: 3vw;
+  #mug_tekst_plus p {
+    margin-left: 30px;
+    margin-top: 2px;
   }
 
   #end {
@@ -1530,334 +1385,140 @@ nav img {
     background-color: transparent;
     position: absolute;
     top: 26vw;
-    left: 443vw;
+    left: 499vw;
   }
 
+  /*--------------*/
 
-}
-
-@media only screen and (max-width: 480px) {
-  #pil_frem {
-    width: 3.33vw;
-    height: 14.8vw;
-    position: fixed;
-    top: 22vw;
-    right: 2vw;
+  #syv {
+    left: 0;
+    top: 600vh;
   }
 
-  #pil_tilbage {
-    width: 3.33vw;
-    height: 14.8vw;
-    position: fixed;
-    top: 22vw;
-    left: 2vw;
+  #syv li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-left: 30px;
   }
 
-
-
-
-
-  #splash {
-    display: flex;
-  }
-
-  #mig {
-    width: 25vw;
-    height: 25vw;
+  #data1 {
+    width: 256px;
+    height: 256px;
     position: absolute;
-    top: 18vw;
-    left: 29vw;
+    top: 6.6px;
+    left: 314px;
   }
 
-  #mig img {
+  #data1 img {
     border-radius: 200px;
   }
 
-  #mig_tekst {
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vw;
+  #data2 {
+    width: 179.2px;
+    height: 179.2px;
     position: absolute;
-    top: 20vw;
-    left: 50vw;
-    background-color: #f5e5e5;
+    top: 212px;
+    left: 416.5px;
+    filter: grayscale(1);
   }
 
-  #pf_tekst {
-    width: 16vw;
-    height: 16vw;
-    position: absolute;
-    top: 34vw;
-    left: 42vw;
-    background-color: #f5e5e5;
-  }
-
-  #pf_tekst p {
-    margin: 3vw 0 0 3vw;
-  }
-
-
-
-
-
-  #uniposters {
-    display: flex;
-  }
-
-  #uni1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 26vw;
-    left: 106vw;
-  }
-
-  #uni1 img {
+  #data2 img {
     border-radius: 200px;
   }
 
-  #uni2 {
-    width: 25vw;
-    height: 25vw;
-    position: absolute;
-    top: 22vw;
-    left: 142vw;
+  #data_tekst {
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
   }
 
-  #uni2 img {
-    border-radius: 200px;
-  }
-
-  #uni3 {
+  #data_tekst2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 12vw;
-    height: 12vw;
+    width: 153.6px;
+    height: 153.6px;
     position: absolute;
-    top: 18vw;
-    left: 115vw;
-    background-color: #f5e5e5;
-    border-radius: 200px;
-  }
-
-  #uni3 img {
-    width: 80%;
-  }
-
-  #uni3 a {
-    text-align: center;
-  }
-
-  #uni_tekst {
-    width: 22vw;
-    height: 22vw;
-    position: absolute;
-    top: 21vw;
-    left: 123vw;
+    top: 122px;
+    right: 172.5px;
     background-color: #f5e5e5;
   }
 
-  #uni_tekst p {
-    margin-left: 3.5vw;
+  #data_tekst2 a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 
-
-  #musikmick {
-    display: flex;
+  #data_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
   }
 
-  #mm1 {
-    width: 20vw;
-    height: 20vw;
+  #data_tekst_plus p {
+    margin-left: 30px;
+    margin-top: 2px;
+  }
+
+  /*--------------*/
+
+  #otte {
+    left: 0;
+    top: 700vh;
+  }
+
+  #otte li {
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  #res1 {
+    width: 256px;
+    height: 256px;
     position: absolute;
-    top: 19vw;
-    left: 212vw;
+    top: 128px;
+    left: 50px;
   }
 
-  #mm1 img {
+  #res1 img {
     border-radius: 200px;
   }
 
-  #mm2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 14vw;
-    height: 14vw;
+  #res_tekst {
+    width: 250px;
+    height: 250px;
+    top: 195px;
+    left: 35px;
+  }
+
+  #res2 {
+    width: 281.6px;
+    height: 281.6px;
     position: absolute;
-    top: 35vw;
-    left: 220vw;
-    background-color: #efefef;
+    top: 68px;
+    left: 267px;
+  }
+
+  #res2 img {
     border-radius: 200px;
   }
 
-  #mm2 img {
-    width: 80%;
+  #res_tekst_plus {
+    width: 320px;
+    height: 320px;
+    top: 160px;
+    left: 0px;
   }
 
-  #mm2 a {
-    text-align: center;
-  }
-
-  #mm_tekst {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 30vw;
-    left: 201vw;
-    background-color: #f5e5e5;
-  }
-
-  #mm_tekst p {
-    margin-left: 3vw;
-  }
-
-  #mm_tekst2 {
-    width: 12vw;
-    height: 12vw;
-    position: absolute;
-    top: 28vw;
-    left: 230vw;
-    background-color: #f5e5e5;
-  }
-
-  #mm_tekst2 p {
-    margin-left: 2vw;
-  }
-
-
-
-
-  #cupcakes {
-    display: flex;
-  }
-
-  #cup1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 27vw;
-    left: 310vw;
-  }
-
-  #cup1 img {
-    border-radius: 200px;
-  }
-
-  #cup2 {
-    width: 14vw;
-    height: 14vw;
-    position: absolute;
-    top: 18vw;
-    left: 306vw;
-  }
-
-  #cup2 img {
-    border-radius: 200px;
-  }
-
-  #cup_tekst {
-    width: 25vw;
-    height: 25vw;
-    position: absolute;
-    left: 286vw;
-    top: 22vw;
-    background-color: #f5e5e5;
-  }
-
-  #cup_tekst p {
-    margin-left: 4vw;
-  }
-
-
-
-
-  #tegne {
-    display: flex;
-  }
-
-  #tegne img {
-    border-radius: 200px;
-  }
-
-  #teg1 {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 18vw;
-    left: 366vw;
-  }
-
-  #teg2 {
-    width: 18vw;
-    height: 18vw;
-    position: absolute;
-    top: 34vw;
-    left: 371vw;
-  }
-
-  #teg3 {
-    width: 22vw;
-    height: 22vw;
-    position: absolute;
-    top: 24vw;
-    left: 406vw;
-  }
-
-  #teg4 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 22vw;
-    left: 360vw;
-  }
-
-  #teg5 {
-    width: 8vw;
-    height: 8vw;
-    position: absolute;
-    top: 35vw;
-    left: 365vw;
-  }
-
-  #teg6 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 40vw;
-    left: 386vw;
-  }
-
-  #teg7 {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 19vw;
-    left: 405vw;
-  }
-
-  #teg_tekst {
-    width: 24vw;
-    height: 24vw;
-    position: absolute;
-    top: 20vw;
-    left: 384vw;
-    background-color: #f5e5e5;
-  }
-
-  #teg_tekst p {
-    margin-left: 3vw;
-  }
-
-  #end {
-    height: 1vw;
-    width: 1vw;
-    background-color: transparent;
-    position: absolute;
-    top: 26vw;
-    left: 443vw;
+  #res_tekst_plus p {
+    margin-left: 40px;
+    margin-top: 2px;
   }
 
 

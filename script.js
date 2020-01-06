@@ -33,6 +33,8 @@ function sidenVises() {
   document.querySelector("#pil_frem").addEventListener("click", frem);
   document.querySelector("#pil_tilbage").addEventListener("click", tilbage);
 
+  document.querySelector("#menuknap").addEventListener("click", dropDown);
+
   document.querySelector("#mm_tekst").addEventListener("click", mmPlus);
   document.querySelector("#uni_tekst").addEventListener("click", uniPlus);
   document.querySelector("#nude_tekst").addEventListener("click", nudePlus);
@@ -53,6 +55,32 @@ function tilbage() {
   console.log("tilbage");
 
   window.scrollBy(-window.innerWidth, 0);
+}
+
+function dropDown() {
+  console.log("dropDown");
+  document.querySelector("#menuknap").removeEventListener("click", dropDown);
+
+  document.querySelector("#dropdown").classList.remove("hide_mob");
+
+  document.querySelector("#menuknap").classList.add("luk");
+  document.querySelector("#menuknap").classList.remove("menu");
+
+  document.querySelector("#menuknap").addEventListener("click", lukMenu);
+  document.querySelector("#dropdown").addEventListener("click", lukMenu);
+  document.querySelector("section").addEventListener("click", lukMenu);
+}
+
+function lukMenu() {
+  console.log("lukMenu");
+  document.querySelector("#menuknap").removeEventListener("click", lukMenu);
+
+  document.querySelector("#dropdown").classList.add("hide_mob");
+
+  document.querySelector("#menuknap").classList.add("menu");
+  document.querySelector("#menuknap").classList.remove("luk");
+
+  document.querySelector("#menuknap").addEventListener("click", dropDown);
 }
 
 function mmPlus() {
