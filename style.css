@@ -988,7 +988,7 @@ nav img {
 }
 
 .om_plus h1 {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .om_plus p {
@@ -1654,6 +1654,14 @@ nav img {
     ;
     border-radius: 200px;
     background-color: #f5e5e5;
+  }
+
+  .om_plus h1 {
+    margin-top: 70px;
+  }
+
+  .om_plus p {
+    margin-left: 70px;
   }
 
   .container2 {
