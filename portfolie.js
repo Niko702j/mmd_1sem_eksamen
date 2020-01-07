@@ -18,6 +18,17 @@ function scroll() {
     document.querySelector("#pil_tilbage").classList.remove("hide");
   }
 
+  if (lastScrollPosition > 10) {
+    document.querySelector("#linje1").classList.add("hide");
+    document.querySelector("#linje2").classList.add("hide");
+    document.querySelector("#linje3").classList.add("hide");
+  } else {
+
+    document.querySelector("#linje1").classList.remove("hide");
+    document.querySelector("#linje2").classList.remove("hide");
+    document.querySelector("#linje3").classList.remove("hide");
+  }
+
   if (lastScrollPosition > disappear) {
     document.querySelector("#pil_frem").classList.add("hide");
   } else {

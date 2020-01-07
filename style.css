@@ -136,6 +136,33 @@ nav img {
   left: 2vw;
 }
 
+#linje1 {
+  width: 4vw;
+  height: 0.5vw;
+  background-color: #f5e5e5;
+  position: absolute;
+  top: 29vw;
+  right: 6vw;
+}
+
+#linje2 {
+  width: 4vw;
+  height: 0.5vw;
+  background-color: #f5e5e5;
+  position: absolute;
+  top: 29vw;
+  right: 12vw;
+}
+
+#linje3 {
+  width: 4vw;
+  height: 0.5vw;
+  background-color: #f5e5e5;
+  position: absolute;
+  top: 29vw;
+  right: 18vw;
+}
+
 .hide {
   display: none;
 }
@@ -218,6 +245,10 @@ nav img {
   background-color: #f5e5e5;
 }
 
+#forside_txt1 a {
+  font-size: 1.4rem;
+}
+
 #forside_txt2 {
   display: flex;
   justify-content: center;
@@ -228,6 +259,10 @@ nav img {
   top: 100px;
   left: 177.92px;
   background-color: #f5e5e5;
+}
+
+#forside_txt2 a {
+  font-size: 1.4rem;
 }
 
 #forside_txt3 {
@@ -242,6 +277,9 @@ nav img {
   background-color: #f5e5e5;
 }
 
+#forside_txt3 a {
+  font-size: 1.4rem;
+}
 
 
 
@@ -1179,6 +1217,18 @@ nav img {
     display: none;
   }
 
+  #linje1 {
+    display: none;
+  }
+
+  #linje2 {
+    display: none;
+  }
+
+  #linje3 {
+    display: none;
+  }
+
   .container {
     width: 320px;
     height: 640px;
@@ -1250,35 +1300,35 @@ nav img {
   #mm1 {
     width: 200px;
     height: 200px;
-    top: 400px;
+    top: 440px;
     left: 0px;
   }
 
   #mm2 {
     width: 130px;
     height: 130px;
-    top: 120px;
+    top: 160px;
     left: 200px;
   }
 
   #mm_tekst {
     width: 250px;
     height: 250px;
-    top: 195px;
+    top: 235px;
     left: 35px;
   }
 
   #mm_tekst2 {
     width: 160px;
     height: 160px;
-    top: 400px;
+    top: 440px;
     right: 0px;
   }
 
   #mm_tekst3 {
     width: 120px;
     height: 120px;
-    top: 100px;
+    top: 140px;
     right: 100px;
   }
 
@@ -1295,7 +1345,7 @@ nav img {
 
   #to {
     left: 0;
-    top: 120vh;
+    top: 100vh;
   }
 
   #uni1 {
@@ -1340,7 +1390,7 @@ nav img {
 
   #tre {
     left: 0;
-    top: 240vh;
+    top: 200vh;
   }
 
   #nudeshooter {
@@ -1376,7 +1426,7 @@ nav img {
 
   #fire {
     left: 0;
-    top: 360vh;
+    top: 300vh;
   }
 
   #cup1 {
@@ -1455,20 +1505,20 @@ nav img {
 
   #fem {
     left: 0;
-    top: 480vh;
+    top: 400vh;
   }
 
   #sprint {
     width: 180px;
     height: 180px;
-    top: 120px;
+    top: 190px;
     right: 0;
   }
 
   #kea_tekst {
     width: 250px;
     height: 250px;
-    top: 195px;
+    top: 265px;
     left: 35px;
   }
 
@@ -1476,7 +1526,7 @@ nav img {
     width: 200px;
     height: 200px;
     left: 0;
-    top: 50px;
+    top: 120px;
   }
 
   #kea_tekst_plus {
@@ -1491,7 +1541,7 @@ nav img {
 
   #seks {
     left: 0;
-    top: 600vh;
+    top: 500vh;
   }
 
   #mug1 {
@@ -1527,7 +1577,7 @@ nav img {
 
   #syv {
     left: 0;
-    top: 720vh;
+    top: 600vh;
   }
 
   #data1 {
@@ -1570,7 +1620,7 @@ nav img {
 
   #otte {
     left: 0;
-    top: 840vh;
+    top: 700vh;
   }
 
   #res1 {
