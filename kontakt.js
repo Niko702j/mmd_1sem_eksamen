@@ -55,3 +55,4 @@ function mailInfo() {
     document.querySelector("#info2").classList.add("hide");
   }
 }
+

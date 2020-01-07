@@ -215,3 +215,4 @@ function resMinus() {
   document.querySelector("#res_tekst_plus").classList.add("hide");
   document.querySelector("#res_tekst_plus").classList.remove("flex");
 }
+

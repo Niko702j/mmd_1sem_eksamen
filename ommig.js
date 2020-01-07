@@ -590,3 +590,4 @@ function lukOm() {
 
   document.querySelector(".x").removeEventListener("click", lukOm);
 }
+
