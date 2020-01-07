@@ -30,7 +30,7 @@ h1 {
   font-weight: 600;
   font-size: 1rem;
   text-align: center;
-  margin: 0;
+  margin: 15px 0 0 0;
 }
 
 h2 {
@@ -49,14 +49,16 @@ h3 {
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-left: 50px;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
+  margin: 5px 20px 0 20px;
 }
 
 header {
@@ -138,8 +140,22 @@ nav img {
   display: none;
 }
 
-.plus {
-  opacity: 0;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt2 {
+  border-radius: 200px;
+}
+
+.tekstbox {
+  width: 350px;
+  height: 390px;
+  white-space: pre-wrap;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -249,13 +265,6 @@ nav img {
   justify-content: center;
 }
 
-#et li {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
-  margin-left: 30px;
-}
-
 #mm1 {
   width: 256px;
   height: 256px;
@@ -317,17 +326,12 @@ nav img {
 }
 
 #mm_tekst_plus {
-  width: 350px;
-  height: 350px;
+  width: 410px;
+  height: 410px;
   position: absolute;
-  top: 70px;
-  left: 125px;
+  top: 0px;
+  left: 100px;
   background-color: #f5e5e5;
-}
-
-#mm_tekst_plus p {
-  margin-left: 30px;
-  margin-top: 2px;
 }
 
 /*--------------*/
@@ -338,13 +342,6 @@ nav img {
   left: 100vw;
   display: flex;
   justify-content: center;
-}
-
-#to li {
-  margin-left: 35px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
 }
 
 #uni1 {
@@ -388,8 +385,8 @@ nav img {
   width: 80%;
 }
 
-#uni3 a {
-  text-align: center;
+#uni3 h1 {
+  margin-top: 0;
 }
 
 #uni_tekst {
@@ -402,17 +399,12 @@ nav img {
 }
 
 #uni_tekst_plus {
-  width: 400px;
-  height: 400px;
+  width: 410px;
+  height: 410px;
   position: absolute;
-  top: 8px;
-  left: 207px;
+  top: 0px;
+  left: 200px;
   background-color: #f5e5e5;
-}
-
-#uni_tekst_plus p {
-  margin-left: 35px;
-  margin-top: 2px;
 }
 
 /*--------------*/
@@ -423,13 +415,6 @@ nav img {
   left: 200vw;
   display: flex;
   justify-content: center;
-}
-
-#tre li {
-  margin-left: 50px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
 }
 
 #nudeshooter {
@@ -470,17 +455,12 @@ nav img {
 }
 
 #nude_tekst_plus {
-  width: 420px;
-  height: 420px;
+  width: 410px;
+  height: 410px;
   position: absolute;
-  left: 108px;
-  top: 10px;
+  left: 110px;
+  top: 0px;
   background-color: #f5e5e5;
-}
-
-#nude_tekst_plus p {
-  margin-left: 50px;
-  margin-top: 2px;
 }
 
 /*--------------*/
@@ -491,13 +471,6 @@ nav img {
   left: 300vw;
   display: flex;
   justify-content: center;
-}
-
-#fire li {
-  margin-left: 45px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
 }
 
 #cup1 {
@@ -591,17 +564,12 @@ nav img {
 }
 
 #cup_tekst_plus {
-  width: 400px;
-  height: 400px;
+  width: 410px;
+  height: 410px;
   position: absolute;
-  top: 14px;
-  left: 260px;
+  top: 0px;
+  left: 255px;
   background-color: #f5e5e5;
-}
-
-#cup_tekst_plus p {
-  margin-left: 45px;
-  margin-top: 2px;
 }
 
 .mindre {
@@ -624,13 +592,6 @@ nav img {
   left: 400vw;
   display: flex;
   justify-content: center;
-}
-
-#fem li {
-  margin-left: 50px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
 }
 
 #keaapp {
@@ -668,17 +629,12 @@ nav img {
 
 
 #kea_tekst_plus {
-  width: 380px;
-  height: 380px;
+  width: 410px;
+  height: 410px;
   position: absolute;
-  left: 230px;
-  top: 70px;
+  left: 215px;
+  top: 0px;
   background-color: #f5e5e5;
-}
-
-#kea_tekst_plus p {
-  margin-left: 50px;
-  margin-top: 2px;
 }
 
 /*--------------*/
@@ -689,13 +645,6 @@ nav img {
   left: 500vw;
   display: flex;
   justify-content: center;
-}
-
-#seks li {
-  margin-left: 30px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
 }
 
 #mug1 {
@@ -732,17 +681,12 @@ nav img {
 }
 
 #mug_tekst_plus {
-  width: 350px;
-  height: 350px;
+  width: 410px;
+  height: 410px;
   position: absolute;
-  top: 15px;
-  right: 130px;
+  top: 0px;
+  right: 100px;
   background-color: #f5e5e5;
-}
-
-#mug_tekst_plus p {
-  margin-left: 30px;
-  margin-top: 2px;
 }
 
 #end {
@@ -762,13 +706,6 @@ nav img {
   position: absolute;
   left: 600vw;
   justify-content: center;
-}
-
-#syv li {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
-  margin-left: 30px;
 }
 
 #data1 {
@@ -824,17 +761,12 @@ nav img {
 }
 
 #data_tekst_plus {
-  width: 350px;
-  height: 350px;
+  width: 410px;
+  height: 410px;
   position: absolute;
-  top: 70px;
-  left: 125px;
+  top: 0px;
+  left: 100px;
   background-color: #f5e5e5;
-}
-
-#data_tekst_plus p {
-  margin-left: 30px;
-  margin-top: 2px;
 }
 
 /*--------------*/
@@ -845,13 +777,6 @@ nav img {
   left: 700vw;
   display: flex;
   justify-content: center;
-}
-
-#otte li {
-  margin-left: 40px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
 }
 
 #res1 {
@@ -891,22 +816,88 @@ nav img {
   width: 410px;
   height: 410px;
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 0px;
   background-color: #f5e5e5;
-}
-
-#res_tekst_plus p {
-  margin-left: 40px;
-  margin-top: 2px;
 }
 
 /*--------------*/
 
 
-@media only screen and (max-width: 900px) {}
+#ki_pos {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
 
-@media only screen and (max-width: 700px) {
+#kontaktinfo img {
+  width: 80%;
+}
+
+#mobil {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 70px;
+  background-color: #f5e5e5;
+}
+
+#info1 {
+  position: absolute;
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  background-color: #f5e5e5;
+}
+
+#info1 h1 {
+  margin-top: 145px;
+}
+
+#mail {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  right: 70px;
+  background-color: #f5e5e5;
+}
+
+#info2 {
+  position: absolute;
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  background-color: #f5e5e5;
+}
+
+#info2 a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+#info2 h1 {
+  margin-top: 145px;
+}
+
+
+@media only screen and (max-width: 900px) {
 
   body {
     overflow-y: scroll;
@@ -1010,6 +1001,19 @@ nav img {
     top: 0;
   }
 
+  .txt2 {
+    border-radius: 0;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  .tekstbox {
+    width: 300px;
+    height: 620px;
+  }
+
 
   /*------------- FORSIDE / INDEX --------------*/
 
@@ -1059,10 +1063,6 @@ nav img {
     left: 0;
   }
 
-  #et li {
-    margin-left: 20px;
-  }
-
   #mm1 {
     width: 200px;
     height: 200px;
@@ -1093,24 +1093,18 @@ nav img {
 
   #mm_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
-  #mm_tekst_plus p {
-    margin-left: 20px;
-  }
 
   /*--------------*/
 
   #to {
     left: 0;
     top: 120vh;
-  }
-
-  #to li {
-    margin-left: 20px;
   }
 
   #uni1 {
@@ -1145,13 +1139,10 @@ nav img {
 
   #uni_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
-  }
-
-  #uni_tekst_plus p {
-    margin-left: 20px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   /*--------------*/
@@ -1159,10 +1150,6 @@ nav img {
   #tre {
     left: 0;
     top: 240vh;
-  }
-
-  #tre li {
-    margin-left: 20px;
   }
 
   #nudeshooter {
@@ -1188,14 +1175,10 @@ nav img {
 
   #nude_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
-  }
-
-  #nude_tekst_plus p {
-    margin-left: 50px;
-    margin-top: 2px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   /*--------------*/
@@ -1203,10 +1186,6 @@ nav img {
   #fire {
     left: 0;
     top: 360vh;
-  }
-
-  #fire li {
-    margin-left: 20px;
   }
 
   #cup1 {
@@ -1235,10 +1214,6 @@ nav img {
     position: absolute;
     top: 30px;
     right: 0;
-  }
-
-  #cup2 img {
-    border-radius: 200px;
   }
 
   #cup3 {
@@ -1279,13 +1254,10 @@ nav img {
 
   #cup_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
-  }
-
-  #cup_tekst_plus p {
-    margin-left: 20px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   /*--------------*/
@@ -1293,10 +1265,6 @@ nav img {
   #fem {
     left: 0;
     top: 480vh;
-  }
-
-  #fem li {
-    margin-left: 20px;
   }
 
   #sprint {
@@ -1322,13 +1290,10 @@ nav img {
 
   #kea_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
-  }
-
-  #kea_tekst_plus p {
-    margin-left: 20px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   /*--------------*/
@@ -1336,10 +1301,6 @@ nav img {
   #seks {
     left: 0;
     top: 600vh;
-  }
-
-  #seks li {
-    margin-left: 20px;
   }
 
   #mug1 {
@@ -1365,25 +1326,17 @@ nav img {
 
   #mug_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
-
-  #mug_tekst_plus p {
-    margin-left: 20px;
-  }
-
 
   /*--------------*/
 
   #syv {
     left: 0;
     top: 720vh;
-  }
-
-  #syv li {
-    margin-left: 20px;
   }
 
   #data1 {
@@ -1416,13 +1369,10 @@ nav img {
 
   #data_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
-  }
-
-  #data_tekst_plus p {
-    margin-left: 20px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   /*--------------*/
@@ -1430,10 +1380,6 @@ nav img {
   #otte {
     left: 0;
     top: 840vh;
-  }
-
-  #otte li {
-    margin-left: 20px;
   }
 
   #res1 {
@@ -1459,13 +1405,46 @@ nav img {
 
   #res_tekst_plus {
     width: 320px;
-    height: 320px;
-    top: 160px;
-    left: 0px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
-  #res_tekst_plus p {
-    margin-left: 20px;
+
+  /*--------------*/
+
+
+  #mobil {
+    width: 250px;
+    height: 250px;
+    top: 110px;
+    left: 35px;
+  }
+
+  #info1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  #info1 h1 {
+    margin-top: 120px;
+  }
+
+  #mail {
+    width: 250px;
+    height: 250px;
+    top: 390px;
+    right: 35px;
+  }
+
+  #info2 {
+    width: 250px;
+    height: 250px;
+  }
+
+  #info2 h1 {
+    margin-top: 120px;
   }
 
 }

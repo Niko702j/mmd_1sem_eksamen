@@ -102,6 +102,7 @@ function uniPlus() {
   console.log("uniPlus");
 
   document.querySelector("#uni_tekst_plus").classList.remove("hide");
+  document.querySelector("#uni_tekst_plus").classList.add("flex");
   document.querySelector("#uni_tekst_plus").addEventListener("click", uniMinus);
 }
 
@@ -109,12 +110,14 @@ function uniMinus() {
   console.log("uniMinus");
 
   document.querySelector("#uni_tekst_plus").classList.add("hide");
+  document.querySelector("#uni_tekst_plus").classList.remove("flex");
 }
 
 function nudePlus() {
   console.log("nudePlus");
 
   document.querySelector("#nude_tekst_plus").classList.remove("hide");
+  document.querySelector("#nude_tekst_plus").classList.add("flex");
   document.querySelector("#nude_tekst_plus").addEventListener("click", nudeMinus);
 }
 
@@ -122,12 +125,14 @@ function nudeMinus() {
   console.log("nudeMinus");
 
   document.querySelector("#nude_tekst_plus").classList.add("hide");
+  document.querySelector("#nude_tekst_plus").classList.remove("flex");
 }
 
 function cupPlus() {
   console.log("cupPlus");
 
   document.querySelector("#cup_tekst_plus").classList.remove("hide");
+  document.querySelector("#cup_tekst_plus").classList.add("flex");
   document.querySelector("#cup_tekst_plus").addEventListener("click", cupMinus);
 }
 
@@ -135,12 +140,14 @@ function cupMinus() {
   console.log("cupMinus");
 
   document.querySelector("#cup_tekst_plus").classList.add("hide");
+  document.querySelector("#cup_tekst_plus").classList.remove("flex");
 }
 
 function mugPlus() {
   console.log("mugPlus");
 
   document.querySelector("#mug_tekst_plus").classList.remove("hide");
+  document.querySelector("#mug_tekst_plus").classList.add("flex");
   document.querySelector("#mug_tekst_plus").addEventListener("click", mugMinus);
 }
 
@@ -148,12 +155,14 @@ function mugMinus() {
   console.log("mugMinus");
 
   document.querySelector("#mug_tekst_plus").classList.add("hide");
+  document.querySelector("#mug_tekst_plus").classList.remove("flex");
 }
 
 function keaPlus() {
   console.log("keaPlus");
 
   document.querySelector("#kea_tekst_plus").classList.remove("hide");
+  document.querySelector("#kea_tekst_plus").classList.add("flex");
   document.querySelector("#kea_tekst_plus").addEventListener("click", keaMinus);
 }
 
@@ -161,12 +170,14 @@ function keaMinus() {
   console.log("keaMinus");
 
   document.querySelector("#kea_tekst_plus").classList.add("hide");
+  document.querySelector("#kea_tekst_plus").classList.remove("flex");
 }
 
 function dataPlus() {
   console.log("dataPlus");
 
   document.querySelector("#data_tekst_plus").classList.remove("hide");
+  document.querySelector("#data_tekst_plus").classList.add("flex");
   document.querySelector("#data_tekst_plus").addEventListener("click", dataMinus);
 }
 
@@ -174,12 +185,14 @@ function dataMinus() {
   console.log("dataMinus");
 
   document.querySelector("#data_tekst_plus").classList.add("hide");
+  document.querySelector("#data_tekst_plus").classList.remove("flex");
 }
 
 function resPlus() {
   console.log("resPlus");
 
   document.querySelector("#res_tekst_plus").classList.remove("hide");
+  document.querySelector("#res_tekst_plus").classList.add("flex");
   document.querySelector("#res_tekst_plus").addEventListener("click", resMinus);
 }
 
@@ -187,4 +200,5 @@ function resMinus() {
   console.log("resMinus");
 
   document.querySelector("#res_tekst_plus").classList.add("hide");
+  document.querySelector("#res_tekst_plus").classList.remove("flex");
 }
