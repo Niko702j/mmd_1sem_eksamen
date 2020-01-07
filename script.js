@@ -62,6 +62,7 @@ function dropDown() {
   document.querySelector("#menuknap").removeEventListener("click", dropDown);
 
   document.querySelector("#dropdown").classList.remove("hide_mob");
+  document.querySelector("header").classList.add("menubaggrund");
 
   document.querySelector("#menuknap").classList.add("luk");
   document.querySelector("#menuknap").classList.remove("menu");
@@ -76,6 +77,7 @@ function lukMenu() {
   document.querySelector("#menuknap").removeEventListener("click", lukMenu);
 
   document.querySelector("#dropdown").classList.add("hide_mob");
+  document.querySelector("header").classList.remove("menubaggrund");
 
   document.querySelector("#menuknap").classList.add("menu");
   document.querySelector("#menuknap").classList.remove("luk");

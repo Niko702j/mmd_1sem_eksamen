@@ -914,9 +914,14 @@ nav img {
   }
 
   header {
-    background-image: url(billeder/rosemob.jpg);
+    background-image: url(billeder/rosemob.png);
     height: 38vw;
     position: fixed;
+    z-index: 10;
+  }
+
+  .menubaggrund {
+    height: 110vw;
   }
 
   #menuknap {
@@ -953,13 +958,17 @@ nav img {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 4vw;
-    padding: 0.5vw;
+    padding: 1vw;
     text-align: right;
   }
 
   nav img {
     width: 70vw;
     left: 9vw;
+  }
+
+  #index {
+    z-index: -1;
   }
 
   #index nav img {
@@ -1097,7 +1106,7 @@ nav img {
 
   #to {
     left: 0;
-    top: 100vh;
+    top: 120vh;
   }
 
   #to li {
@@ -1149,7 +1158,7 @@ nav img {
 
   #tre {
     left: 0;
-    top: 200vh;
+    top: 240vh;
   }
 
   #tre li {
@@ -1193,7 +1202,7 @@ nav img {
 
   #fire {
     left: 0;
-    top: 300vh;
+    top: 360vh;
   }
 
   #fire li {
@@ -1283,7 +1292,7 @@ nav img {
 
   #fem {
     left: 0;
-    top: 400vh;
+    top: 480vh;
   }
 
   #fem li {
@@ -1326,26 +1335,18 @@ nav img {
 
   #seks {
     left: 0;
-    top: 500vh;
+    top: 600vh;
   }
 
   #seks li {
-    margin-left: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 0.85rem;
+    margin-left: 20px;
   }
 
   #mug1 {
-    width: 320px;
-    height: 320px;
-    position: absolute;
-    top: 0;
-    left: 177.92px;
-  }
-
-  #mug1 img {
-    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 0;
   }
 
   #mug_tekst {
@@ -1356,15 +1357,10 @@ nav img {
   }
 
   #mug2 {
-    width: 205px;
-    height: 205px;
-    position: absolute;
-    top: 205px;
-    left: 345px;
-  }
-
-  #mug2 img {
-    border-radius: 200px;
+    width: 170px;
+    height: 170px;
+    top: 400px;
+    left: 150px;
   }
 
   #mug_tekst_plus {
@@ -1375,56 +1371,33 @@ nav img {
   }
 
   #mug_tekst_plus p {
-    margin-left: 30px;
-    margin-top: 2px;
+    margin-left: 20px;
   }
 
-  #end {
-    height: 1vw;
-    width: 1vw;
-    background-color: transparent;
-    position: absolute;
-    top: 26vw;
-    left: 499vw;
-  }
 
   /*--------------*/
 
   #syv {
     left: 0;
-    top: 600vh;
+    top: 720vh;
   }
 
   #syv li {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 0.85rem;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   #data1 {
-    width: 256px;
-    height: 256px;
-    position: absolute;
-    top: 6.6px;
-    left: 314px;
-  }
-
-  #data1 img {
-    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    left: 0px;
   }
 
   #data2 {
-    width: 179.2px;
-    height: 179.2px;
-    position: absolute;
-    top: 212px;
-    left: 416.5px;
-    filter: grayscale(1);
-  }
-
-  #data2 img {
-    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    left: 170px;
   }
 
   #data_tekst {
@@ -1435,21 +1408,10 @@ nav img {
   }
 
   #data_tekst2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 153.6px;
-    height: 153.6px;
-    position: absolute;
-    top: 122px;
-    right: 172.5px;
-    background-color: #f5e5e5;
-  }
-
-  #data_tekst2 a {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
+    width: 150px;
+    height: 150px;
+    top: 400px;
+    right: 0px;
   }
 
   #data_tekst_plus {
@@ -1460,34 +1422,25 @@ nav img {
   }
 
   #data_tekst_plus p {
-    margin-left: 30px;
-    margin-top: 2px;
+    margin-left: 20px;
   }
 
   /*--------------*/
 
   #otte {
     left: 0;
-    top: 700vh;
+    top: 840vh;
   }
 
   #otte li {
-    margin-left: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 0.85rem;
+    margin-left: 20px;
   }
 
   #res1 {
-    width: 256px;
-    height: 256px;
-    position: absolute;
-    top: 128px;
-    left: 50px;
-  }
-
-  #res1 img {
-    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    left: 0;
   }
 
   #res_tekst {
@@ -1498,15 +1451,10 @@ nav img {
   }
 
   #res2 {
-    width: 281.6px;
-    height: 281.6px;
-    position: absolute;
-    top: 68px;
-    left: 267px;
-  }
-
-  #res2 img {
-    border-radius: 200px;
+    width: 220px;
+    height: 220px;
+    top: 50px;
+    left: 100px;
   }
 
   #res_tekst_plus {
@@ -1517,9 +1465,7 @@ nav img {
   }
 
   #res_tekst_plus p {
-    margin-left: 40px;
-    margin-top: 2px;
+    margin-left: 20px;
   }
-
 
 }
