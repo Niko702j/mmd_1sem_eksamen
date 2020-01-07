@@ -319,10 +319,26 @@ nav img {
   background-color: #f5e5e5;
 }
 
+#mm_tekst2 h1 {
+  margin-top: 0;
+}
+
 #mm_tekst2 a {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+#mm_tekst3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 40px;
+  right: 220px;
+  background-color: #f5e5e5;
 }
 
 #mm_tekst_plus {
@@ -760,6 +776,10 @@ nav img {
   text-transform: uppercase;
 }
 
+#data_tekst2 h1 {
+  margin-top: 0;
+}
+
 #data_tekst_plus {
   width: 410px;
   height: 410px;
@@ -836,31 +856,46 @@ nav img {
   width: 80%;
 }
 
+#kntkt {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  position: absolute;
+  background-color: #f5e5e5;
+  top: 30px;
+  left: 290px;
+}
+
+#kntkt h1 {
+  font-size: 2rem;
+  margin-top: 120px;
+}
+
 #mobil {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 200px;
-  width: 300px;
-  height: 300px;
-  top: 50px;
-  left: 70px;
+  width: 200px;
+  height: 200px;
+  top: 130px;
+  left: 50px;
   background-color: #f5e5e5;
 }
 
 #info1 {
   position: absolute;
   border-radius: 200px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   top: 0;
   left: 0;
   background-color: #f5e5e5;
 }
 
 #info1 h1 {
-  margin-top: 145px;
+  margin-top: 96px;
 }
 
 #mail {
@@ -869,18 +904,18 @@ nav img {
   justify-content: center;
   align-items: center;
   border-radius: 200px;
-  width: 300px;
-  height: 300px;
-  top: 50px;
-  right: 70px;
+  width: 200px;
+  height: 200px;
+  top: 130px;
+  right: 50px;
   background-color: #f5e5e5;
 }
 
 #info2 {
   position: absolute;
   border-radius: 200px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   top: 0;
   left: 0;
   background-color: #f5e5e5;
@@ -893,8 +928,149 @@ nav img {
 }
 
 #info2 h1 {
-  margin-top: 145px;
+  margin-top: 96px;
+  font-size: 0.9rem;
 }
+
+/*--------------*/
+
+#om_mig {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+}
+
+.container2 {
+  display: flex;
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  top: 10vw;
+}
+
+#om_mig_main {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  border-radius: 200px;
+  background-color: #f5e5e5;
+}
+
+#om_mig_main h1 {
+  font-size: 3rem;
+  margin-top: 100px;
+}
+
+.om_mini {
+  width: 120px;
+  height: 120px;
+  background-color: #f5e5e5;
+  position: absolute;
+  border-radius: 200px;
+}
+
+.om_mini h1 {
+  margin-top: 30px;
+}
+
+.om_plus {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  border-radius: 200px;
+  background-color: #f5e5e5;
+}
+
+.x {
+  width: 40px;
+  height: 40px;
+  background-image: url(billeder/kryds.svg);
+  background-size: 80%;
+  background-position: center;
+  border-radius: 200px;
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#om1 {
+  top: 20px;
+  left: 30px;
+}
+
+#om2 {
+  top: 120px;
+  left: 120px;
+}
+
+#om3 {
+  top: 280px;
+  left: 170px;
+}
+
+#om4 {
+  top: 210px;
+  left: 0;
+}
+
+#om5 {
+  top: 380px;
+  left: 280px;
+}
+
+#om6 {
+  top: 360px;
+  left: 40px;
+}
+
+#om7 {
+  top: 0px;
+  left: 260px;
+}
+
+#om8 {
+  top: 350px;
+  right: 30px;
+}
+
+#om9 {
+  top: 25px;
+  right: 230px;
+}
+
+#om10 {
+  top: 140px;
+  right: 150px;
+}
+
+#om11 {
+  top: 200px;
+  right: 8px;
+}
+
+#om12 {
+  top: 280px;
+  right: 170px;
+}
+
+#om13 {
+  top: 370px;
+  right: 270px;
+}
+
+#om14 {
+  top: 30px;
+  right: 30px;
+}
+
+
 
 
 @media only screen and (max-width: 900px) {
@@ -1006,7 +1182,7 @@ nav img {
   }
 
   p {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .tekstbox {
@@ -1091,10 +1267,17 @@ nav img {
     right: 0px;
   }
 
+  #mm_tekst3 {
+    width: 120px;
+    height: 120px;
+    top: 100px;
+    right: 100px;
+  }
+
   #mm_tekst_plus {
     width: 320px;
     height: 640px;
-    top: 0;
+    top: 130px;
     left: 0;
     right: 0;
   }
@@ -1414,37 +1597,137 @@ nav img {
 
   /*--------------*/
 
+  #kntkt {
+    top: 170px;
+    left: 10px;
+  }
 
   #mobil {
-    width: 250px;
-    height: 250px;
-    top: 110px;
-    left: 35px;
+    width: 140px;
+    height: 140px;
+    top: 480px;
+    left: 10px;
   }
 
   #info1 {
-    width: 250px;
-    height: 250px;
+    width: 140px;
+    height: 140px;
   }
 
   #info1 h1 {
-    margin-top: 120px;
+    margin-top: 70px;
+    font-size: 0.6rem;
   }
 
   #mail {
-    width: 250px;
-    height: 250px;
-    top: 390px;
-    right: 35px;
+    width: 140px;
+    height: 140px;
+    top: 480px;
+    right: 10px;
   }
 
   #info2 {
-    width: 250px;
-    height: 250px;
+    width: 140px;
+    height: 140px;
   }
 
   #info2 h1 {
-    margin-top: 120px;
+    margin-top: 70px;
+    font-size: 0.6rem;
+  }
+
+
+  .om_plus {
+    width: 90vw;
+    height: 90vw;
+    position: fixed;
+    left: 5vw;
+    top: 60vw;
+    ;
+    border-radius: 200px;
+    background-color: #f5e5e5;
+  }
+
+  .container2 {
+    width: 320px;
+    height: 1300px;
+    ;
+    top: 38vw;
+  }
+
+  #om_mig_main {
+    top: 20px;
+    left: 10px;
+  }
+
+  #om1 {
+    top: 350px;
+    left: 25px;
+  }
+
+  #om2 {
+    top: 480px;
+    left: 25px;
+  }
+
+  #om3 {
+    top: 610px;
+    left: 25px;
+  }
+
+  #om4 {
+    top: 740px;
+    left: 25px;
+  }
+
+  #om5 {
+    top: 870px;
+    left: 25px;
+  }
+
+  #om6 {
+    top: 1000px;
+    left: 25px;
+  }
+
+  #om7 {
+    top: 1130px;
+    left: 25px;
+  }
+
+  #om8 {
+    top: 350px;
+    right: 25px;
+  }
+
+  #om9 {
+    top: 480px;
+    right: 25px;
+  }
+
+  #om10 {
+    top: 610px;
+    right: 25px;
+  }
+
+  #om11 {
+    top: 740px;
+    right: 25px;
+  }
+
+  #om12 {
+    top: 870px;
+    right: 25px;
+  }
+
+  #om13 {
+    top: 1000px;
+    right: 25px;
+  }
+
+  #om14 {
+    top: 1130px;
+    right: 25px;
   }
 
 }

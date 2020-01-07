@@ -89,6 +89,7 @@ function mmPlus() {
   console.log("mmPlus");
 
   document.querySelector("#mm_tekst_plus").classList.remove("hide");
+  document.querySelector("#mm_tekst_plus").classList.add("flex");
   document.querySelector("#mm_tekst_plus").addEventListener("click", mmMinus);
 }
 
@@ -96,6 +97,7 @@ function mmMinus() {
   console.log("mmMinus");
 
   document.querySelector("#mm_tekst_plus").classList.add("hide");
+  document.querySelector("#mm_tekst_plus").classList.remove("flex");
 }
 
 function uniPlus() {

@@ -20,6 +20,7 @@ function dropDown() {
 
   document.querySelector("#menuknap").addEventListener("click", lukMenu);
   document.querySelector("#dropdown").addEventListener("click", lukMenu);
+  document.querySelector("section").addEventListener("click", lukMenu);
 }
 
 function lukMenu() {
